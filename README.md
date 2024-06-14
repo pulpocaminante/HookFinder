@@ -29,10 +29,7 @@ Before you can build and run HookMonitor, ensure that you have the following:
 
 ### Running HookFinder
 
-1. **Identify the Target Process**:
-    - Determine the process you want to inject the DLL into. You can use tools like Task Manager or Process Explorer to find the process ID (PID).
-
-2. **Inject the DLL**:
+1. **Inject the DLL**:
     - Use a DLL injection tool
 
-3. **??? Profit**
+2. **??? Profit**
