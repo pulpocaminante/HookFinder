@@ -1,6 +1,6 @@
-# HookMonitor
+# HookFinder
 
-HookMonitor is a lightweight tool designed to inject a DLL into a running process to monitor for Ring 3 hooks. This project relies on Microsoft Detours for DLL injection and hook detection.
+HookFinder is a lightweight tool designed to inject a DLL into a running process to monitor for Ring 3 hooks. This project relies on Microsoft Detours for DLL injection and hook detection.
 
 ## Prerequisites
 
@@ -15,8 +15,8 @@ Before you can build and run HookMonitor, ensure that you have the following:
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/yourusername/HookMonitor.git
-    cd HookMonitor
+    git clone git@github.com:pulpocaminante/HookFinder.git    
+    cd HookFinder
     ```
 
 2. **Set Up Microsoft Detours**:
@@ -27,7 +27,7 @@ Before you can build and run HookMonitor, ensure that you have the following:
     - Open the project in your IDE (e.g., Visual Studio).
     - Build the solution. Ensure there are no errors.
 
-### Running HookMonitor
+### Running HookFinder
 
 1. **Identify the Target Process**:
     - Determine the process you want to inject the DLL into. You can use tools like Task Manager or Process Explorer to find the process ID (PID).
